@@ -6,7 +6,7 @@ function appendToDisplay(input)
 
 }
 function clearDisplay(){
-    display.value("")
+    display.value="";
 }
 function calculate()
 {
@@ -17,4 +17,5 @@ function calculate()
     {
         display.value="Error";
     }
+
 }
